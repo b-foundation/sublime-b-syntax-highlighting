@@ -1,5 +1,7 @@
 # Syntax highlighting for the [B](https://en.wikipedia.org/wiki/B_(programming_language)) language
 
+[![GitHub release](https://img.shields.io/github/release/baleyko/sublime-b-syntax-highlighting.svg)](https://github.com/baleyko/sublime-b-syntax-highlighting/releases) [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg)](http://opensource.org/licenses/MIT)
+
 The repository contains a source code for the Sublime Text 2/3 package which implements syntax highlighting for the B programming language. This package does not claim to complete covering of all the syntax constructions existing in B language specification, moreover, it does not try to fit to any implementation of this language.
 
 As additional it contains snippets for some kinds of blocks and statements.
