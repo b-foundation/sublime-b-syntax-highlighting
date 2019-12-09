@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+while (${1:methodName}) {
+	${2}
+}${3}
+]]></content>
+	<tabTrigger>while</tabTrigger>
+	<scope>source.b</scope>
+	<description>while</description>
+</snippet>

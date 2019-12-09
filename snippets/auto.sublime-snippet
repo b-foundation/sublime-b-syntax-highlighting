@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+auto ${1:variableName};
+${2}
+]]></content>
+	<tabTrigger>extrn</tabTrigger>
+	<scope>source.b</scope>
+	<description>auto statement</description>
+</snippet>
