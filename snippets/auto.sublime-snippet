@@ -1,7 +1,5 @@
 <snippet>
-	<content><![CDATA[
-auto ${1};
-${2}]]></content>
+	<content><![CDATA[auto ${1};${2}]]></content>
 	<tabTrigger>auto</tabTrigger>
 	<scope>source.b</scope>
 	<description>auto statement</description>

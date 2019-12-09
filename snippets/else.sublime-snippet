@@ -1,9 +1,5 @@
 <snippet>
-	<content><![CDATA[
- else {
-	${1}
-}
-${2}]]></content>
+	<content><![CDATA[ else {${1}}${2}]]></content>
 	<tabTrigger>else</tabTrigger>
 	<scope>source.b</scope>
 	<description>else block section</description>

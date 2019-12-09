@@ -1,9 +1,5 @@
 <snippet>
-	<content><![CDATA[
-case ${1}:
-	${2}
-	break;
-$3]]></content>
+	<content><![CDATA[case ${1}:${2}break;$3]]></content>
 	<tabTrigger>case</tabTrigger>
 	<scope>source.b</scope>
 	<description>case switch-block section</description>

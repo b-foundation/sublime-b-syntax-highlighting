@@ -1,9 +1,5 @@
 <snippet>
-	<content><![CDATA[
-while (${1}) {
-	${2}
-}
-${3}]]></content>
+	<content><![CDATA[while (${1}) {${2}}${3}]]></content>
 	<tabTrigger>while</tabTrigger>
 	<scope>source.b</scope>
 	<description>while-loo block</description>
