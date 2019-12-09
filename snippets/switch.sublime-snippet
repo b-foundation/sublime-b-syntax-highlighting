@@ -2,7 +2,8 @@
 	<content><![CDATA[
 switch (${1}) {
 	${2}
-}]]></content>
+}
+$3]]></content>
 	<tabTrigger>switch</tabTrigger>
 	<scope>source.b</scope>
 	<description>switch block</description>

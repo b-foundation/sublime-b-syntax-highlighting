@@ -1,9 +1,8 @@
 <snippet>
 	<content><![CDATA[
-auto ${1:variableName};
-${2}
-]]></content>
-	<tabTrigger>extrn</tabTrigger>
+auto ${1};
+${2}]]></content>
+	<tabTrigger>auto</tabTrigger>
 	<scope>source.b</scope>
 	<description>auto statement</description>
 </snippet>

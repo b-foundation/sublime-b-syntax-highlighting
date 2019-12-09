@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
 if (${1}) {
-	${0}
+	${2}
 }${3}
-]]></content>
+${4}]]></content>
 	<tabTrigger>if</tabTrigger>
 	<scope>source.b</scope>
-	<description>if-block</description>
+	<description>if block</description>
 </snippet>
