@@ -1,4 +1,4 @@
-# Syntax highlighting for the B language
+# Syntax highlighting for the [B](https://en.wikipedia.org/wiki/B_(programming_language)) language
 
 The repository contains a source code for the Sublime Text 2/3 package which implements syntax highlighting for the B programming language. This package does not claim to complete covering of all the syntax constructions existing in B language specification, moreover, it does not try to fit to any implementation of this language.
 
