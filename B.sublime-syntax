@@ -1,0 +1,93 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: B
+file_extensions:
+  - b
+scope: source.b
+contexts:
+  main:
+    - include: code
+  scope:
+    - match: '(?<=^|[^@\w\.])(extrn|auto)\b'
+      scope: storage.type.primitive.b
+  code:
+    - include: comments
+    - include: constants
+    - include: operators
+    - include: strings
+    - include: keywords
+    - include: scope
+    - include: functions
+    - include: labels
+    - include: variables
+  comments:
+    - match: /\*\*/
+      scope: comment.block.empty.b
+      captures:
+        0: punctuation.definition.comment.b
+    - match: /\*
+      captures:
+        0: punctuation.definition.comment.b
+      push:
+        - meta_scope: comment.block.b
+        - match: \*/
+          captures:
+            0: punctuation.definition.comment.b
+          pop: true
+  constants:
+    - match: '\b(?<![\.0-9])([0-9]+)(?![\.0-9])\b'
+      scope: constant.numeric.b
+    - match: '[\$\~\@\#\^\\\.]|([\+\-\\\>\<]{3,})|([\&\|\*\/\?\:\[\{]{2,}|(\?\:))'
+      scope: variable.other.b
+  functions:
+    - match: '(?<![\)\@\.\$\#\`\"''\]\\\~\^\w])([_A-Za-z]\w*)(?=\s*\()'
+      scope: entity.name.function.b
+  keywords:
+    - match: '(?<=^|[\s\{\}\;\:]|\*\/)(goto|if|else|switch|case|default|break|while|return)\b'
+      scope: keyword.b
+  labels:
+    - match: '\b([_a-zA-Z]+\w*)(?=\:(?!\:))\b'
+      scope: keyword.other.b
+  operators:
+    - match: "!(?!=)"
+      scope: keyword.operator.logical.b
+    - match: '<<|>>|&|\|'
+      scope: keyword.operator.bitwise.b
+    - match: <=|>=|<|>
+      scope: keyword.operator.relational.b
+    - match: "==|!="
+      scope: keyword.operator.comparison.b
+    - match: '--|\+\+|(?<!/)\*\*|(?<!\*)/(?!/|\*)|%|\*(?<!/\*)(?!/([^\*]|$))|\+|-'
+      scope: keyword.operator.arithmetic.b
+    - match: (=>|(=(?!(=))))
+      scope: keyword.operator.assignment.b
+    - match: \?
+      comment: keyword.operator.ternary.b
+      push:
+        - match: '\:'
+          pop: true
+        - include: comments
+        - include: constants
+        - include: operators
+        - include: strings
+        - include: functions
+        - include: variables
+  strings:
+    - match: '"'
+      push:
+        - meta_scope: string.quoted.double.b
+        - match: '"'
+          pop: true
+        - match: '(\*[0net\(\)\*\"\''])|(\%[scdo])'
+          scope: constant.character.escape.b
+    - match: "'"
+      push:
+        - meta_scope: string.quoted.single.b
+        - match: "'"
+          pop: true
+        - match: '(\*[0net\(\)\*\"\''])|(\%[scdo])'
+          scope: constant.character.escape.b
+  variables:
+    - match: '\b([_a-zA-z]+\w*)\b'
+      scope: variable.other.b
