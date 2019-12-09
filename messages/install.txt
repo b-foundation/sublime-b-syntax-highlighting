@@ -1,0 +1,14 @@
+Welcome to the B Syntax Highlighting package for Sublime Text 2/3!
+
+This package does not claim to complete covering of all the syntax
+constructions existing in B language specification, moreover, it
+does not try to fit to any implementation of this language.
+
+If you are interesting in any improvements of this package please don't
+hesitate make pull request to [the repository on GitHub or, create the issue
+on GitHub Issues, you are welcome.
+
+Repository: https://github.com/baleyko/sublime-b-syntax-highlighting
+Issues: https://github.com/baleyko/sublime-b-syntax-highlighting/issues
+
+Thanks!
