@@ -1,6 +1,6 @@
 <snippet>
-	<content><![CDATA[extrn ${1};${2}]]></content>
-	<tabTrigger>extrn</tabTrigger>
-	<scope>source.b</scope>
-	<description>extrn statement</description>
+  <content><![CDATA[extrn $1;$2]]></content>
+  <tabTrigger>extrn</tabTrigger>
+  <scope>source.b</scope>
+  <description>extrn statement</description>
 </snippet>

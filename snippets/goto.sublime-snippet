@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[goto $1;$2]]></content>
+  <tabTrigger>goto</tabTrigger>
+  <scope>source.b</scope>
+  <description>goto operator</description>
+</snippet>

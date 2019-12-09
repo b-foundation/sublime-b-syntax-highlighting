@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[break;$1]]></content>
+  <tabTrigger>break</tabTrigger>
+  <scope>source.b</scope>
+  <description>break operator</description>
+</snippet>

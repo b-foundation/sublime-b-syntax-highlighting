@@ -1,6 +1,6 @@
 <snippet>
-	<content><![CDATA[auto ${1};${2}]]></content>
-	<tabTrigger>auto</tabTrigger>
-	<scope>source.b</scope>
-	<description>auto statement</description>
+  <content><![CDATA[auto $1;$2]]></content>
+  <tabTrigger>auto</tabTrigger>
+  <scope>source.b</scope>
+  <description>auto statement</description>
 </snippet>

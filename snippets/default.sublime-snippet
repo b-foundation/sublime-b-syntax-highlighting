@@ -1,6 +1,6 @@
 <snippet>
-	<content><![CDATA[default:${1}]]></content>
-	<tabTrigger>default</tabTrigger>
-	<scope>source.b</scope>
-	<description>default switch-block section</description>
+  <content><![CDATA[default:$1]]></content>
+  <tabTrigger>default</tabTrigger>
+  <scope>source.b</scope>
+  <description>default block section</description>
 </snippet>
