@@ -1,0 +1,7 @@
+Version 0.1.0
+
+The Sublime Text B Syntax Highlighting Package has been released!
+
+This version includes syntax highlighting rules and the blocks/statements snippets.
+
+Please restart Sublime Text.
