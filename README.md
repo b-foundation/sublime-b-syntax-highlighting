@@ -7,3 +7,7 @@ As additional it contains snippets for some kinds of blocks and statements.
 ## Installation
 
 First of all you need to [install Package Control](https://packagecontrol.io/installation), then find and choose `B Syntax Highlighting` from the `Package Control: Install Package` dropdown list in the Command Palette.
+
+## License
+
+[MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/baleyko/sublime-b-syntax-highlighting/blob/master/LICENSE.md) for more details.
