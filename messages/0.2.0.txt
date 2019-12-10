@@ -1,0 +1,9 @@
+Version 0.1.0
+
+The next version of the B language is already here.
+
+Main goals:
+- Add new snippets
+- Make them compatiable with extensions for VSCode Atom
+
+Please restart Sublime Text.
